@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends</title>
+    <!-- run every thing normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Personal Frame Work -->
+    <link rel="stylesheet" href="css/frame-work.css" />
+    <!-- Main File -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page d-flex w-full">
+      <!-- start side-bar -->
+      <div class="side-bar p-15 bg-white p-relative">
+        <h2 class="p-relative txt-c mt-0">Omar</h2>
+        <ul class="d-flex gap-10">
+          <a
+            href="index.html"
+            class="d-flex align-centre fs-14 c-black red-6 p-10"
+          >
+            <i class="fa-regular fa-chart-bar fa-fw"></i>
+            <span>Dashboard</span>
+          </a>
+          <a
+            href="settings.html"
+            class="d-flex align-centre fs-14 c-black red-6 p-10"
+          >
+            <i class="fa-solid fa-gear fa-fw"></i> <span>Settings</span>
+          </a>
+          <a
+            href="profile.html"
+            class="d-flex align-centre fs-14 c-black red-6 p-10"
+          >
+            <i class="fa-solid fa-user fa-fw"></i> <span>Profile</span>
+          </a>
+          <a
+            href="projects.html"
+            class="d-flex align-centre fs-14 c-black red-6 p-10"
+          >
+            <i class="fa-solid fa-diagram-project fa-fw"></i>
+            <span>Projects</span>
+          </a>
+          <a
+            href="courses.html"
+            class="d-flex align-centre fs-14 c-black red-6 p-10"
+          >
+            <i class="fa-solid fa-graduation-cap fa-fw"></i>
+            <span>Courses</span>
+          </a>
+          <a
+            href="friends.html"
+            class="d-flex align-centre fs-14 c-black red-6 p-10 active"
+          >
+            <i class="fa-solid fa-user-group fa-fw"></i> <span>Friends</span>
+          </a>
+          <a
+            href="files.html"
+            class="d-flex align-centre fs-14 c-black red-6 p-10"
+          >
+            <i class="fa-solid fa-file fa-fw"></i> <span>Files</span>
+          </a>
+          <a
+            href="plans.html"
+            class="d-flex align-centre fs-14 c-black red-6 p-10"
+          >
+            <i class="fa-brands fa-unsplash fa-fw"></i> <span>Plans</span>
+          </a>
+        </ul>
+      </div>
+      <!-- End side-bar -->
+      <!-- Start Content -->
+      <div class="content w-full">
+        <!-- start head -->
+        <div class="header bg-white p-15 between-flex">
+          <form action="" class="d-flex p-relative">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              type="search"
+              placeholder="Type A Keyword"
+              class="rad-10 p-relative fs-13"
+            />
+          </form>
+          <div class="right d-flex align-center p-relative gap-10">
+            <i class="fa-regular fa-bell p-relative"></i>
+            <img src="images/avatar.png" alt="" />
+          </div>
+        </div>
+        <!-- end head -->
+        <!-- Start Settings -->
+        <div class="dashboard p-15">
+          <h1 class="p-relative">Friends</h1>
+          <div class="friends-section pt-20">
+            <div class="container d-grid gap-20">
+              <div class="dash-box">
+                <div class="head p-relative d-flex-col center-flex pt-10">
+                  <span class="p-absolute bg-eee c-black fs-13 p-10 rad-half"
+                    ><i class="fa-solid fa-phone"></i
+                  ></span>
+                  <span class="p-absolute bg-eee c-black fs-13 p-10 rad-half"
+                    ><i class="fa-regular fa-envelope"></i
+                  ></span>
+                  <img
+                    src="images/friend-01.jpg"
+                    class="w-100 rad-half mb-15"
+                  />
+                  <h2 class="fs-18 mb-5">Mohammed Atef</h2>
+                  <span class="c-grey fs-15">JavaScript Developer</span>
+                </div>
+                <div class="body d-flex-col pt-15 pb-15 mt-20 mb-20">
+                  <ul class="d-flex-col gap-10 fs-14 p-relative">
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-regular fa-face-smile fa-fw"></i>
+                      <span>99 Friend</span>
+                    </li>
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-solid fa-code-commit fa-fw"></i>
+                      <span>15 Projects</span>
+                    </li>
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-regular fa-newspaper fa-fw"></i>
+                      <span>25 Articles</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="foot between-flex fs-13">
+                  <span class="c-grey">Joined 02/10/2021</span>
+                  <div>
+                    <span class="btn-shape bg-blue c-white">Profile</span>
+                    <span class="btn-shape bg-red c-white">Remove</span>
+                  </div>
+                </div>
+              </div>
+              <div class="dash-box">
+                <div class="head p-relative d-flex-col center-flex pt-10">
+                  <span class="p-absolute bg-eee c-black fs-13 p-10 rad-half"
+                    ><i class="fa-solid fa-phone"></i
+                  ></span>
+                  <span class="p-absolute bg-eee c-black fs-13 p-10 rad-half"
+                    ><i class="fa-regular fa-envelope"></i
+                  ></span>
+                  <img
+                    src="images/friend-02.jpg"
+                    class="w-100 rad-half mb-15"
+                  />
+                  <h2 class="fs-18 mb-5">Mohammed Ouda</h2>
+                  <span class="c-grey fs-15">Cloud Developer</span>
+                </div>
+                <div class="body d-flex-col pt-15 pb-15 mt-20 mb-20">
+                  <ul class="d-flex-col gap-10 fs-14 p-relative">
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-regular fa-face-smile fa-fw"></i>
+                      <span>30 Friend</span>
+                    </li>
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-solid fa-code-commit fa-fw"></i>
+                      <span>11 Projects</span>
+                    </li>
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-regular fa-newspaper fa-fw"></i>
+                      <span>12 Articles</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="foot between-flex fs-13">
+                  <span class="c-grey">Joined 02/08/2020</span>
+                  <div>
+                    <span class="btn-shape bg-blue c-white">Profile</span>
+                    <span class="btn-shape bg-red c-white">Remove</span>
+                  </div>
+                </div>
+              </div>
+              <div class="dash-box">
+                <div class="head p-relative d-flex-col center-flex pt-10">
+                  <span class="p-absolute bg-eee c-black fs-13 p-10 rad-half"
+                    ><i class="fa-solid fa-phone"></i
+                  ></span>
+                  <span class="p-absolute bg-eee c-black fs-13 p-10 rad-half"
+                    ><i class="fa-regular fa-envelope"></i
+                  ></span>
+                  <img
+                    src="images/friend-03.jpg"
+                    class="w-100 rad-half mb-15"
+                  />
+                  <h2 class="fs-18 mb-5">Aser EL-Samad</h2>
+                  <span class="c-grey fs-15">Mobile Developer</span>
+                </div>
+                <div class="body d-flex-col pt-15 pb-15 mt-20 mb-20">
+                  <ul class="d-flex-col gap-10 fs-14 p-relative">
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-regular fa-face-smile fa-fw"></i>
+                      <span>80 Friend</span>
+                    </li>
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-solid fa-code-commit fa-fw"></i>
+                      <span>20 Projects</span>
+                    </li>
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-regular fa-newspaper fa-fw"></i>
+                      <span>18 Articles</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="foot between-flex fs-13">
+                  <span class="c-grey">Joined 02/06/2020</span>
+                  <div>
+                    <span class="btn-shape bg-blue c-white">Profile</span>
+                    <span class="btn-shape bg-red c-white">Remove</span>
+                  </div>
+                </div>
+              </div>
+              <div class="dash-box">
+                <div class="head p-relative d-flex-col center-flex pt-10">
+                  <span class="p-absolute bg-eee c-black fs-13 p-10 rad-half"
+                    ><i class="fa-solid fa-phone"></i
+                  ></span>
+                  <span class="p-absolute bg-eee c-black fs-13 p-10 rad-half"
+                    ><i class="fa-regular fa-envelope"></i
+                  ></span>
+                  <img
+                    src="images/friend-04.jpg"
+                    class="w-100 rad-half mb-15"
+                  />
+                  <h2 class="fs-18 mb-5">Ziad Rady</h2>
+                  <span class="c-grey fs-15">Back-End Developer</span>
+                </div>
+                <div class="body d-flex-col pt-15 pb-15 mt-20 mb-20">
+                  <ul class="d-flex-col gap-10 fs-14 p-relative">
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-regular fa-face-smile fa-fw"></i>
+                      <span>70 Friend</span>
+                    </li>
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-solid fa-code-commit fa-fw"></i>
+                      <span>30 Projects</span>
+                    </li>
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-regular fa-newspaper fa-fw"></i>
+                      <span>18 Articles</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="foot between-flex fs-13">
+                  <span class="c-grey">Joined 28/06/2020</span>
+                  <div>
+                    <span class="btn-shape bg-blue c-white">Profile</span>
+                    <span class="btn-shape bg-red c-white">Remove</span>
+                  </div>
+                </div>
+              </div>
+              <div class="dash-box">
+                <div class="head p-relative d-flex-col center-flex pt-10">
+                  <span class="p-absolute bg-eee c-black fs-13 p-10 rad-half"
+                    ><i class="fa-solid fa-phone"></i
+                  ></span>
+                  <span class="p-absolute bg-eee c-black fs-13 p-10 rad-half"
+                    ><i class="fa-regular fa-envelope"></i
+                  ></span>
+                  <img
+                    src="images/friend-05.jpg"
+                    class="w-100 rad-half mb-15"
+                  />
+                  <h2 class="fs-18 mb-5">Skikabala</h2>
+                  <span class="c-grey fs-15">Algorithm Developer</span>
+                </div>
+                <div class="body d-flex-col pt-15 pb-15 mt-20 mb-20">
+                  <ul class="d-flex-col gap-10 fs-14 p-relative">
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-regular fa-face-smile fa-fw"></i>
+                      <span>80 Friend</span>
+                    </li>
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-solid fa-code-commit fa-fw"></i>
+                      <span>30 Projects</span>
+                    </li>
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-regular fa-newspaper fa-fw"></i>
+                      <span>18 Articles</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="foot between-flex fs-13">
+                  <span class="c-grey">Joined 28/08/2020</span>
+                  <div>
+                    <span class="btn-shape bg-blue c-white">Profile</span>
+                    <span class="btn-shape bg-red c-white">Remove</span>
+                  </div>
+                </div>
+              </div>
+              <div class="dash-box">
+                <div class="head p-relative d-flex-col center-flex pt-10">
+                  <span class="p-absolute bg-eee c-black fs-13 p-10 rad-half"
+                    ><i class="fa-solid fa-phone"></i
+                  ></span>
+                  <span class="p-absolute bg-eee c-black fs-13 p-10 rad-half"
+                    ><i class="fa-regular fa-envelope"></i
+                  ></span>
+                  <img
+                    src="images/friend-04.jpg"
+                    class="w-100 rad-half mb-15"
+                  />
+                  <h2 class="fs-18 mb-5">EL-Zol</h2>
+                  <span class="c-grey fs-15">Back-End Developer</span>
+                </div>
+                <div class="body d-flex-col pt-15 pb-15 mt-20 mb-20">
+                  <ul class="d-flex-col gap-10 fs-14 p-relative">
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-regular fa-face-smile fa-fw"></i>
+                      <span>70 Friend</span>
+                    </li>
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-solid fa-code-commit fa-fw"></i>
+                      <span>30 Projects</span>
+                    </li>
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-regular fa-newspaper fa-fw"></i>
+                      <span>18 Articles</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="foot between-flex fs-13">
+                  <span class="c-grey">Joined 28/06/2020</span>
+                  <div>
+                    <span class="btn-shape bg-blue c-white">Profile</span>
+                    <span class="btn-shape bg-red c-white">Remove</span>
+                  </div>
+                </div>
+              </div>
+              <div class="dash-box">
+                <div class="head p-relative d-flex-col center-flex pt-10">
+                  <span class="p-absolute bg-eee c-black fs-13 p-10 rad-half"
+                    ><i class="fa-solid fa-phone"></i
+                  ></span>
+                  <span class="p-absolute bg-eee c-black fs-13 p-10 rad-half"
+                    ><i class="fa-regular fa-envelope"></i
+                  ></span>
+                  <img
+                    src="images/friend-02.jpg"
+                    class="w-100 rad-half mb-15"
+                  />
+                  <h2 class="fs-18 mb-5">Mohammed Othman</h2>
+                  <span class="c-grey fs-15">Cloud Developer</span>
+                </div>
+                <div class="body d-flex-col pt-15 pb-15 mt-20 mb-20">
+                  <ul class="d-flex-col gap-10 fs-14 p-relative">
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-regular fa-face-smile fa-fw"></i>
+                      <span>30 Friend</span>
+                    </li>
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-solid fa-code-commit fa-fw"></i>
+                      <span>11 Projects</span>
+                    </li>
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-regular fa-newspaper fa-fw"></i>
+                      <span>12 Articles</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="foot between-flex fs-13">
+                  <span class="c-grey">Joined 02/10/2021</span>
+                  <div>
+                    <span class="btn-shape bg-blue c-white">Profile</span>
+                    <span class="btn-shape bg-red c-white">Remove</span>
+                  </div>
+                </div>
+              </div>
+              <div class="dash-box">
+                <div class="head p-relative d-flex-col center-flex pt-10">
+                  <span class="p-absolute bg-eee c-black fs-13 p-10 rad-half"
+                    ><i class="fa-solid fa-phone"></i
+                  ></span>
+                  <span class="p-absolute bg-eee c-black fs-13 p-10 rad-half"
+                    ><i class="fa-regular fa-envelope"></i
+                  ></span>
+                  <img
+                    src="images/friend-05.jpg"
+                    class="w-100 rad-half mb-15"
+                  />
+                  <h2 class="fs-18 mb-5">Ahmed</h2>
+                  <span class="c-grey fs-15">Content Creator</span>
+                </div>
+                <div class="body d-flex-col pt-15 pb-15 mt-20 mb-20">
+                  <ul class="d-flex-col gap-10 fs-14 p-relative">
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-regular fa-face-smile fa-fw"></i>
+                      <span>80 Friend</span>
+                    </li>
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-solid fa-code-commit fa-fw"></i>
+                      <span>30 Projects</span>
+                    </li>
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-regular fa-newspaper fa-fw"></i>
+                      <span>28 Articles</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="foot between-flex fs-13">
+                  <span class="c-grey">Joined 28/08/2020</span>
+                  <div>
+                    <span class="btn-shape bg-blue c-white">Profile</span>
+                    <span class="btn-shape bg-red c-white">Remove</span>
+                  </div>
+                </div>
+              </div>
+              <div class="dash-box">
+                <div class="head p-relative d-flex-col center-flex pt-10">
+                  <span class="p-absolute bg-eee c-black fs-13 p-10 rad-half"
+                    ><i class="fa-solid fa-phone"></i
+                  ></span>
+                  <span class="p-absolute bg-eee c-black fs-13 p-10 rad-half"
+                    ><i class="fa-regular fa-envelope"></i
+                  ></span>
+                  <img
+                    src="images/friend-01.jpg"
+                    class="w-100 rad-half mb-15"
+                  />
+                  <h2 class="fs-18 mb-5">Aser Othman</h2>
+                  <span class="c-grey fs-15">JavaScript Developer</span>
+                </div>
+                <div class="body d-flex-col pt-15 pb-15 mt-20 mb-20">
+                  <ul class="d-flex-col gap-10 fs-14 p-relative">
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-regular fa-face-smile fa-fw"></i>
+                      <span>99 Friend</span>
+                    </li>
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-solid fa-code-commit fa-fw"></i>
+                      <span>15 Projects</span>
+                    </li>
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-regular fa-newspaper fa-fw"></i>
+                      <span>25 Articles</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="foot between-flex fs-13">
+                  <span class="c-grey">Joined 02/10/2020</span>
+                  <div>
+                    <span class="btn-shape bg-blue c-white">Profile</span>
+                    <span class="btn-shape bg-red c-white">Remove</span>
+                  </div>
+                </div>
+              </div>
+              <div class="dash-box">
+                <div class="head p-relative d-flex-col center-flex pt-10">
+                  <span class="p-absolute bg-eee c-black fs-13 p-10 rad-half"
+                    ><i class="fa-solid fa-phone"></i
+                  ></span>
+                  <span class="p-absolute bg-eee c-black fs-13 p-10 rad-half"
+                    ><i class="fa-regular fa-envelope"></i
+                  ></span>
+                  <img
+                    src="images/friend-01.jpg"
+                    class="w-100 rad-half mb-15"
+                  />
+                  <h2 class="fs-18 mb-5">Abd-Allah</h2>
+                  <span class="c-grey fs-15">Front-End Developer</span>
+                </div>
+                <div class="body d-flex-col pt-15 pb-15 mt-20 mb-20">
+                  <ul class="d-flex-col gap-10 fs-14 p-relative">
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-regular fa-face-smile fa-fw"></i>
+                      <span>80 Friend</span>
+                    </li>
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-solid fa-code-commit fa-fw"></i>
+                      <span>20 Projects</span>
+                    </li>
+                    <li class="d-flex align-center gap-10">
+                      <i class="fa-regular fa-newspaper fa-fw"></i>
+                      <span>18 Articles</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="foot between-flex fs-13">
+                  <span class="c-grey">Joined 02/06/2020</span>
+                  <div>
+                    <span class="btn-shape bg-blue c-white">Profile</span>
+                    <span class="btn-shape bg-red c-white">Remove</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
