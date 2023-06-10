@@ -807,6 +807,9 @@ label input[type="checkbox"]:checked + .toggle-switch::after {
   background-color: #eee;
 }
 @media (max-width: 767px) {
+  .profile .details .row {
+    justify-content: center;
+  }
   .profile .details .row h2,
   .profile .details .row p {
     text-align: center;

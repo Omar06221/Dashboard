@@ -293,4 +293,9 @@
   border-radius: 10px;
   overflow: hidden;
 }
+@media (max-width: 767px) {
+  .mob-scale {
+    transform: scale(0.8);
+  }
+}
 /* End Components */
